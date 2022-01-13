@@ -1,7 +1,15 @@
 # My Webpage
 ## First Heading
-Some **text** 
+`Some` **text** 
 ## Second Heading 
 *Some cooler text*
-[Website](www.google.com)
 
+[Website](https://www.google.com/)
+
+* First bullet point
+* Second bullet point
+
+Hello!
+```
+System.out.println("Hello World!");
+```
