@@ -1,6 +1,9 @@
-## Remote Access Tutorial
+&nbsp;  
 
-This tutorial will help you learn all of the basics of remote access! 
+
+<h2 align="center">Remote Access Tutorial</h1>
+
+<p align="center">This tutorial will help you learn all of the basics of remote access! </p>
 
 &nbsp;  
 
