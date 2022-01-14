@@ -1,6 +1,6 @@
 
 <body style="background-color:black;">
- 
+ </body>
 
  Welcome to my CSE 15L website! 
  
