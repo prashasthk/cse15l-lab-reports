@@ -1,7 +1,7 @@
 &nbsp;  
 
 
-<p style="font-size:21px" align="center"> Remote Access Tutorial </p>
+<p style="font-size:26px" align="center"> Remote Access Tutorial </p>
 
 <p align="center">This tutorial will help you learn all of the basics of remote access!</p>
 
