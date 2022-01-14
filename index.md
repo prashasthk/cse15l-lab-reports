@@ -1,4 +1,3 @@
-
 <p style="font-size:21px"> Welcome to my CSE 15L website!</p>
 
 <p style="font-size:21px"> This website is meant to be a home for all of my lab reports in the class. </p>
