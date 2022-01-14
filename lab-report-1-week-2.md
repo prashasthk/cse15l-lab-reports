@@ -1,9 +1,8 @@
 &nbsp;  
 
 
-## <center> Remote Access Tutorial </center>
+<font size="6"> <center> Remote Access Tutorial </font>
 
-<center>
 This tutorial will help you learn all of the basics of remote access! 
 </center>
 
