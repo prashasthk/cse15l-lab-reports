@@ -1,7 +1,9 @@
 ## Remote Access Tutorial
 
 This tutorial will help you learn all of the basics of remote access! 
+
 &nbsp;  
+
 ## 1. Installing Visual Studio Code
 Make sure to install Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and follow the installation steps. Once you open Visual Studio Code, it should look something like this: 
 ![Image](VSCodeSC.PNG)
