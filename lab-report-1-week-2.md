@@ -11,11 +11,11 @@ Make sure to install Visual Studio Code ([https://code.visualstudio.com/](https:
 &nbsp;  
 
 ## 2. Remotely Connecting 
-Open a terminal on VS Code by clicking on **Terminal** at the top menu bar and then clicking **New Terminal**. To request access to one of the remote servers at UCSD type this in the terminal:
+Open a terminal on VS Code by clicking on **Terminal** at the top menu bar and then clicking **New Terminal**. To request access to your remote server at UCSD, take your server address and follow this command:
 ```
-ssh cse15lwi22att@ieng6.ucsd.edu
+ssh cs15lwi22att@ieng6.ucsd.edu
 ```
-Enter the password you have for this account. Note that you will not be able to see any indication of the password you have typed out, but rest assured, your key strokes are going through. If it is successful, you will see an output similar to this:
+Note that I will be using my server address throughout the tutorial -- make sure to substitute with your account. Enter the password you have for this account. Note that you will not be able to see any indication of the password you have typed out, but rest assured, your key strokes are going through. If it is successful, you will see an output similar to this:
 
 ![Image](login.PNG)
 
