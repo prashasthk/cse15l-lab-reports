@@ -1,2 +1,8 @@
 title: CSE 15L Lab Reports
 author: Prash Katukojwala
+
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
