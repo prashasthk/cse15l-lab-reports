@@ -1,5 +1,7 @@
 # My Webpage
+
 [Lab Report 1](https://prashasthk.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+<body style="background-color:black;">
 <img src="giphy.gif" width="100%">
 
 
@@ -18,3 +20,4 @@ Hello!
 ```
 System.out.println("Hello World!");
 ```
+</body>
