@@ -5,7 +5,7 @@
 &nbsp;  
 
 ## 1. Installing Visual Studio Code
-Make sure to install Visual Studio Code ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and follow the installation steps. Once you open Visual Studio Code, it should look something like this: 
+Make sure to install Visual Studio Code ([VSCode](https://code.visualstudio.com/)) and follow the installation steps. Once you open Visual Studio Code, it should look something like this: 
 ![Image](VSCodeSC.PNG)
 
 &nbsp;  
@@ -59,6 +59,8 @@ Enter your passphrase to log into the server.
 
 ## 6. Optimizing Remote Running
 Luckily, we can make running commands remotely more convenient. Let's say we want to run multiple commands on the same line. We can insert semicolons between commands on the same line.
-For example, `ssh cs15wi22att@ieng6.ucsd.edu ls; javac Hello.java` will ssh into the server, list contents of the current directory, exit the server, and then compile Hello.java on the client side. Note that if we want to run both commands on the server, we can use put all the commands we want to run in quotes, separated by semicolons. For example, with the command `ssh cs15wi22att@ieng6.ucsd.edu "ls; javac Hello.java"` the server will be exited only after the closing double quotes.
+For example, `ssh cs15wi22att@ieng6.ucsd.edu ls; javac Hello.java` will ssh into the server, list contents of the current directory, exit the server, and then compile Hello.java on the client side. This command only takes 51 keystrokes compared to over 55 keystrokes and more time waiting if you run them separately. Note that if we want to run both commands on the server, we can use put all the commands we want to run in quotes, separated by semicolons. For example, with the command `ssh cs15wi22att@ieng6.ucsd.edu "ls; javac Hello.java"` the server will be exited only after the closing double quotes. 
 
 ![Image](easierrunning.PNG)
+*This will only take about 44 keystrokes (excluding entering password) compared to 48 keystrokes to `ssh`, `cd ..`, `pwd` and `logout` separately, plus extra time spent waiting for each command to run. This trick will definitely cause a noticeable difference and make the experience smoother.
+
