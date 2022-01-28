@@ -1,0 +1,2 @@
+[emptyLink]()
+[nextLink](google.com)

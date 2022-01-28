@@ -5,3 +5,4 @@
 <p style="font-size:21px"><b>Lab Reports</b></p>
 
 <p style="font-size:18px"> <a href="https://prashasthk.github.io/cse15l-lab-reports/lab-report-1-week-2.html">Lab Report 1</a></p>
+<p style="font-size:18px"> <a href="https://prashasthk.github.io/cse15l-lab-reports/lab-report-2-week-4.html">Lab Report 2</a></p>
