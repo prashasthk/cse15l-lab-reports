@@ -1,2 +1,2 @@
 [emptyLink]()
-[nextLink](google.com)
+[nextLink](https://www.google.com/)

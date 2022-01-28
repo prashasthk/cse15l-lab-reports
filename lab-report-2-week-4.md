@@ -5,7 +5,7 @@ Failure-inducing input: [Click to view Test File #1](test-file.md)
 
 Symptom:  
 ```
-Exception in thread "main" java.lang.OutOfMemoryError: Java heap space (Code gets stuck in an infinite loop)
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
 This bug occurs because `nextOpenBracket` is set to -1 because `indexOf` can not find an open bracket after the closing parentheses in the failure-inducing input: `[a link!](http)s://something.com)`. Because it is searching from index -1, the program will find the first closing bracket and will parse through the same link infinitely, never breaking out of the while loop. This is why we see the out of memory error returned (shown above) as the symptom.
@@ -31,7 +31,7 @@ Failure-inducing input: [Test File #3](test-file3.md)
 
 Symptom (output):
 ```
-[, google.com]
+[, https://www.google.com/]
 ```
 
-This bug occurs when there is an empty link that the program parses through, in which an empty string is read and inserted into the list of links. This failure-inducing input does not cause an runtime error but causes the symptom shown above. In reality, there is no link to be returned to the user, so it should be ignored and the correct output should just include the last link: `[google.com]`
+This bug occurs when there is an empty link that the program parses through, in which an empty string is read and inserted into the list of links. This failure-inducing input does not cause an runtime error but causes the symptom shown above. In reality, there is no link to be returned to the user, so it should be ignored and the correct output should just include the last link: `[https://www.google.com/]`
