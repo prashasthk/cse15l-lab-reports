@@ -5,6 +5,8 @@ Failure-inducing input: [Click to view Test File #1](test-file.md)
 
 Symptom:  
 ```
+> java MarkdownParse test-file.md 
+
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 ```
 
@@ -18,6 +20,8 @@ Failure-inducing input: [Test File #2](test-file2.md)
 
 Symptom:
 ```
+> java MarkdownParse test-file2.md
+
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 21, end -1, length 42
 ```
 The bug occurs because `closingParen` is -1 since `indexOf` was not able to find closing parentheses in the failure-inducing string input from test-file2.md. Therefore, the substring that the program tries to grab at the end of the `getLinks` method is between index 21 and -1. Since the end index is less than beginning index, it will throw an `StringIndexOutOfBoundsException` error in the terminal (shown above) as the symptom.
@@ -31,6 +35,8 @@ Failure-inducing input: [Test File #3](test-file3.md)
 
 Symptom (output):
 ```
+> java MarkdownParse test-file3.md
+
 [, https://www.google.com/]
 ```
 
