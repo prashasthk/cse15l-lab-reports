@@ -1,6 +1,6 @@
-# Streamlining SSH Configuration
+ <p style="font-size:26px" align="center"> Streamlining SSH Configuration </p>
 
-
+&nbsp;
 ## Config File
 
 ![Image](report_3_files/config.PNG)
@@ -15,7 +15,7 @@ I choose the alias "15l" (seen in the config file) to quickly `ssh` into my remo
 
 &nbsp;
 
-## `scp` Command
+## SCP Command
 ![Image](report_3_files/scp_command.PNG)
 The `scp` command, the command to copy files, also becomes a lot quicker with an alias. On the client side, I was able to copy `HelloWorld.txt` to the home directory of my remote server simply by `scp HelloWorld.txt 15l:~/`. This only required 26 keystrokes, excluding the passphrase, while doing `scp` with the full address requires 50 keystrokes to copy over a file. As shown above, when we log into the remote server, `HelloWorld.txt` has successfully been copied to the home directory of the server. 
 
