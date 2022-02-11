@@ -1,7 +1,7 @@
 ## Bug Fix #1 
 
-![Image](fix1.PNG)
-Failure-inducing input: [Click to view Test File #1](test-file.md)
+![Image](report_2_files/fix1.PNG)
+Failure-inducing input: [Click to view Test File #1](report_2_files/test-file.md)
 
 Symptom:  
 ```
@@ -15,7 +15,7 @@ This bug occurs because `nextOpenBracket` is set to -1 because `indexOf` can not
 &nbsp;
 ## Bug Fix #2 
 
-![Image](fix2.PNG)
+![Image](report_2_files/fix2.PNG)
 Failure-inducing input: [Test File #2](test-file2.md)
 
 Symptom:
@@ -30,7 +30,7 @@ The bug occurs because `closingParen` is -1 since `indexOf` was not able to find
 
 ## Bug Fix #3
 
-![Image](fix3.PNG)
+![Image](report_2_files/fix3.PNG)
 Failure-inducing input: [Test File #3](test-file3.md)
 
 Symptom:
