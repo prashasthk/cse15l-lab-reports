@@ -1,6 +1,6 @@
 ## Snippet 1
 
-The test should produce the output ``[`google.com, google.com, ucsd.edu]``
+The test should produce the output ``[`google.com, google.com, ucsd.edu]``.
 ### JUnit Test
 ![Image](report_4_files/testOne.PNG)
 
@@ -15,7 +15,7 @@ I could create a small code change that would specifically address the snippet o
 &nbsp;
 
 ## Snippet 2
-The test should produce the output `[a.com, a.com(()), example.com]`
+The test should produce the output `[a.com, a.com(()), example.com]`.
 ### JUnit Test
 ![Image](report_4_files/testTwo.PNG)
 
@@ -25,12 +25,12 @@ The test should produce the output `[a.com, a.com(()), example.com]`
 ### Running the Test on other's MarkdownParse
 ![Image](report_4_files/otherTest2Output.PNG)
 
-I would have to create separate logic that checks for nested parentheses. First I would have to check for multiple pairs of opening and closing parenthesis and then keep track of which closing parenthesis pairs with which opening parenthesis, so that I can find between which parenthesis  the link exactly lies. Therefore, this would not be a small code change because it requires complicated logic. 
+I would have to create separate logic that checks for nested parentheses. First I would have to check for multiple pairs of opening and closing parenthesis and then keep track of which closing parenthesis pairs with which opening parenthesis, so that I can find between which parenthesis the link exactly lies. Therefore, this would not be a small code change because it requires complicated logic. 
 
 &nbsp;
 
 ## Snippet 3
-The test should produce the output `[, https://ucsd-cse15l-w22.github.io/]`
+The test should produce the output `[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`.
 
 ### JUnit Test
 ![Image](report_4_files/testThree.PNG)
